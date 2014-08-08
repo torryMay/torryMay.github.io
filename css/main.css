@@ -98,7 +98,7 @@ body {
 }
 
 .portfolio li {
-    display: inline;
+    display: inline-block;
     background-color: #313338;
     padding: 10px;
     width: 103px;
@@ -169,10 +169,6 @@ body {
 
 }
 
-/*.myButton:active {*/
-    /*position:relative;*/
-    /*top:1px;*/
-/*}*/
 
 .btnWhite {
     background-color: #e4e4e4;
@@ -375,4 +371,5 @@ a {
 
 .footer {
 padding: 20px;
+    margin: 0;
 }
