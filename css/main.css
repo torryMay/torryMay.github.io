@@ -20,9 +20,13 @@ body {
 
 .header {
     width: 100%;
-
+    font-family: Roboto-regular;
+    font-size: 20px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #282a2e
+    position: fixed;
+    z-index: 1200;
 }
 
 .logo {
@@ -32,6 +36,7 @@ body {
 .main-menu {
     text-align: center;
     padding-top: 7px;
+
 }
 .main-menu ul {
     padding: 0;
@@ -256,31 +261,39 @@ body {
     font-family: Arial;
 }
 .firstJimbotron {
-    background-image: url("../img/vintage-girls-fashion-style-hd-1080p-wallpapers-download-1024x576.jpg");
+    background-image: url("../img/vintage-girls-fashion-style-hd-1080p-wallpapers-download-1024x576.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 430px;
+    font-family: Roboto-regular;
+    text-align: right;
+
 }
 
 .secondJimbotron{
-    background-image: url("../img/fashion-girl-hair-style-wide.jpg");
+    background-image: url("../img/femininity-2880x1800.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 530px;
+    text-align: right;
 }
 
 .thirdJimbotron {
-    background-image: url("../img/calgary-stampede-2880x1800.jpg");
+    background-image: url("../img/calgary-stampede-2880x1800.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 430px;
+    font-family: Roboto-regular;
+    color: #ffffff;
 }
 
 .fourthJimbotron {
-    background-image: url("../img/autumn-bicycle-wide-1600x900.jpg");
+    background-image: url("../img/autumn-bicycle-wide-1600x900.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 430px;
+    font-family: Roboto-regular;
+    color: #ffffff;
 }
 
 .fifthJimbotron {
@@ -289,6 +302,7 @@ body {
     background-size: cover;
     height: 430px;
     font-family: Roboto-regular;
+    margin: 0;
 }
 
 .aboutUs {
@@ -357,4 +371,8 @@ a {
 .fifthCont {
     margin-left: 116px;
     margin-top: 85px;
+}
+
+.footer {
+padding: 20px;
 }
