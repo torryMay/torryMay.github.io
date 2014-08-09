@@ -157,13 +157,12 @@ body {
 .myButton {
 
     background-color:#b0cd3b;
-    font-weight: 700;
+    
     color: white;
-    text-decoration: none;
+
     font-family: Roboto-regular;
     padding: 10px 27px;
     border-radius: 3px;
-    width: 131px;
     box-shadow: 0 -3px #798f21 inset;
     transition: 0.2s;
 
@@ -327,7 +326,7 @@ body {
 }
 .emailForm {
     display: inline-block;
-    width: 330px;
+    width: 43%;
     margin-right: 10px;
     background-color: #222327;
     border: none;
@@ -335,7 +334,7 @@ body {
 
 .textForm{
     margin-top: 25px;
-    width: 675px;
+    width: 88%;
     background-color: #222327;
     border: none;
     height: 135px;
