@@ -34,7 +34,7 @@ body {
 
 .mainMenu li{
     display: inline-block;
-    padding: 0 45px;
+    padding: 0 35px;
 }
 .mainMenu li a {
     font-family: Bazar;
@@ -43,6 +43,10 @@ body {
     text-transform: uppercase;
     color: #f9ebd9;
     text-shadow: 3px 1px 5px rgba(150, 150, 150, 1);
+}
+
+.mainMenu ul {
+    padding: 0 !important;
 }
 
 .mainMenu img {
