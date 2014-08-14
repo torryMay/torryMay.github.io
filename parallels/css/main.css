@@ -190,7 +190,7 @@ body {
 
 .smallcolumn {
     background-color: #f4f4f4;
-    width: 205px;
+    padding: 20px;
     display: inline-block;
     -moz-border-radius:6px;
     -webkit-border-radius:6px;
@@ -319,8 +319,8 @@ body {
 }
 
 .contactUs {
-    margin: 0;
-    margin-bottom: 75px;
+
+    margin-bottom: 35px !important;
 }
 .emailForm {
     display: inline-block;
