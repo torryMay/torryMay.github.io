@@ -1,0 +1,265 @@
+
+@font-face {
+    font-family: Open Sans;
+    src: url(../fonts/1f9fP1md.ttf) format("truetype");
+}
+
+
+
+body {
+    text-align: center !important;
+    font-family: "Open Sans";
+}
+
+.row {
+    margin: 0 !important;
+}
+.header {
+    margin-top: 5%;
+
+}
+
+.header-cont{
+    background-color: #bc1e0b;
+    text-align: center !important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.luggage {
+    width: 277px;
+    height: 44px;
+    border-top: 20px solid #bc1e0b;
+    border-left: 15px solid #bc1e0b;
+    border-right: 15px solid #bc1e0b;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: -29px;
+}
+
+.logo {
+    padding-top: 3%;
+}
+
+.mainMenu li{
+    display: inline-block;
+    padding: 0 5px;
+}
+.mainMenu li a {
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff !important;
+}
+
+.gallery {
+    width: 96%;
+    display: inline-block ;
+}
+
+.firstJimbotron {
+    background-color: grey;
+}
+.firstJimbotron h3 {
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    padding: 27px;
+}
+
+.mainBenefit {
+    background-color: #000000;
+    text-align: center;
+
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.mainBenefit h3 {
+    color: #ffffff;
+}
+
+.mainBenefit h2 {
+   color: #4169e1;
+}
+
+.mainBenefit h4 {
+font-size: 20px;
+    font-weight: normal;
+}
+
+.line {
+    border-top: 2px solid red;
+    width: 10%;
+    display: inline-block;s
+}
+
+.total {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.total h3 {
+    color: #e62713;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 22px;
+}
+
+.total p {
+    text-transform:none !important;
+    color: #4169e1;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.features {
+    background-color: #0a5e98;
+}
+
+.features h2 {
+    color: #ffffff;
+    padding: 30px;
+    margin: 0;
+}
+
+.all {
+    padding: 20px 3px;
+    color: #ffffff;
+}
+
+.all h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.all p {
+    font-size: 12px;
+}
+.mediaall {
+    display: inline-block;
+    line-height: 1.2;
+    height: 96px;
+    text-align: left;
+}
+
+.column {
+    padding: 0 !important;
+}
+
+.offer {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 12px;
+}
+
+.offer h2 {
+    color: red;
+    padding-top: 10px;
+}
+
+.offer {
+    font-size: 16px;
+}
+
+.testimonial {
+    background-color: #ab1b0a;
+}
+
+.testimonial img {
+    /*vertical-align: bottom;*/
+}
+.title h2 {
+    color: #ffffff;
+    display: inline-block;
+    text-align: left;
+    font-weight: normal !important;
+}
+
+.testSlider {
+    margin-top: 20px;
+    padding-bottom: 25px;
+    display: inline-block;
+}
+
+.slidePart {
+    display: inline-block;
+}
+
+.Call2Action {
+    background-color: #ffffff;
+
+}
+
+.Call2Action-cont {
+    border: 2px solid #336ed2;
+    border-radius: 25px;
+    width: 96%;
+    display: inline-block;
+    margin: 20px 1px;
+
+}
+
+.Call2Action-cont h3 {
+  color: #1c73ba;
+}
+
+.bullet {
+    line-height: 2;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.Call2Action-cont h4,h5{
+    line-height: 1.8;
+    font-weight: normal;
+    padding: 15px;
+}
+
+.about {
+    background-color: #c91b1d;
+    display: inline-block;
+    text-align: left;
+    padding: 15px 0;
+}
+
+.about h3 {
+    color: #ffffff;
+    display: inline-block;
+
+
+}
+
+.amazonStore p {
+    background-color: #a91b22;
+    font-size: 16px;
+    padding: 10px;
+
+    line-height: 1.47;
+}
+
+.contact {
+   background-color: #dedbd8;
+    padding: 30px 0;
+}
+.contact p {
+    width: 70%;
+    text-align: center;
+}
+.emailForm {
+    display: inline-block !important;
+    width: 47% !important;
+}
+
+.Eform {
+    margin: 5px;
+}
+
+.footer {
+    background-color: #e91d25;
+    color: #ffffff;
+    padding: 20px;
+}
+
