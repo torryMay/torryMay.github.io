@@ -4,28 +4,26 @@
     src: url(../fonts/1f9fP1md.ttf) format("truetype");
 }
 
-
-
 body {
     text-align: center !important;
     font-family: "Open Sans";
+    background-image: url(../img/background.png);
+    background-repeat: round;
 }
-
 .row {
     margin: 0 !important;
 }
 .header {
     margin-top: 5%;
-
 }
 
 .header-cont{
-    background-color: #bc1e0b;
+    background-image: url(../img/stripe_4b7c055914014a1b0ae095059ca5eefc.png);
+    background-repeat: repeat;
     text-align: center !important;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-
 .luggage {
     width: 277px;
     height: 44px;
@@ -36,11 +34,9 @@ body {
     display: inline-block;
     margin-top: -29px;
 }
-
 .logo {
     padding-top: 3%;
 }
-
 .mainMenu li{
     display: inline-block;
     padding: 0 5px;
@@ -51,14 +47,12 @@ body {
     text-transform: uppercase;
     color: #ffffff !important;
 }
-
 .gallery {
     width: 96%;
     display: inline-block ;
 }
-
 .firstJimbotron {
-    background-color: grey;
+    background-image: url(../img/stripe_6b7bea13937e337e79edf45d2913756a.png);
 }
 .firstJimbotron h3 {
     margin: 0;
@@ -66,20 +60,15 @@ body {
     text-align: center;
     padding: 27px;
 }
-
 .mainBenefit {
     background-color: #000000;
     text-align: center;
-
     font-weight: bold;
     text-transform: uppercase;
-
 }
-
 .mainBenefit h3 {
     color: #ffffff;
 }
-
 .mainBenefit h2 {
    color: #4169e1;
 }
@@ -167,9 +156,6 @@ font-size: 20px;
     background-color: #ab1b0a;
 }
 
-.testimonial img {
-    /*vertical-align: bottom;*/
-}
 .title h2 {
     color: #ffffff;
     display: inline-block;
@@ -186,7 +172,9 @@ font-size: 20px;
 .slidePart {
     display: inline-block;
 }
-
+.slidePart img {
+    width: 100%;
+}
 .Call2Action {
     background-color: #ffffff;
 
@@ -211,6 +199,10 @@ font-size: 20px;
     text-align: left;
 }
 
+.bullet h2 {
+    color: #1c73ba;
+}
+
 
 .Call2Action-cont h4,h5{
     line-height: 1.8;
@@ -220,33 +212,25 @@ font-size: 20px;
 
 .about {
     background-color: #c91b1d;
-    display: inline-block;
+
     text-align: left;
     padding: 15px 0;
 }
 
-.about h3 {
+.about h4 {
     color: #ffffff;
     display: inline-block;
-
-
 }
 
-.amazonStore p {
-    background-color: #a91b22;
-    font-size: 16px;
-    padding: 10px;
-
-    line-height: 1.47;
-}
 
 .contact {
-   background-color: #dedbd8;
+   background-image: url(../img/pattern-31y8.png);
+    background-repeat: repeat;
     padding: 30px 0;
 }
 .contact p {
     width: 70%;
-    text-align: center;
+    margin: 0 auto;
 }
 .emailForm {
     display: inline-block !important;
