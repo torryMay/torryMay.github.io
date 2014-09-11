@@ -1,0 +1,321 @@
+@font-face {
+    font-family: "Calibre-reg";
+    src: url(../fonts/Calibre-Regular.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Calibre-Sem";
+    src: url(../fonts/Calibre-Semibold.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Brandon_reg";
+    src: url(../fonts/Brandon_reg.otf) format("truetype");
+}
+
+body {
+    max-width: 1280px ! important;
+    text-align: center ! important;
+    margin: auto ! important;
+    font-family: "Calibre-reg" ! important;
+    letter-spacing: 0.5;
+    background-color: #E7E6E5 !important;
+}
+
+.row {
+    max-width: 1280px !important;
+}
+.every_img {
+    width: 100%;
+}
+.header {
+    background: url(../img/head.png) no-repeat center center;
+    background-size: cover ;
+    color: #ffffff;
+}
+
+.header h1 {
+    font-family: Brandon_reg;
+    font-size: 36px;
+}
+.header h3 {
+    padding-top: 1%;
+    color: #dcdcdc;
+}
+
+p {
+    font-size: 20px! important;
+    color: #717373;
+}
+.book_img {
+    padding-top: 61px;
+    padding-bottom: 172px;
+}
+
+.video_cont {
+    padding-top: 3%;
+    padding-bottom: 15%;
+}
+
+.main {
+    background-color: #ffffff;
+}
+
+.main_cont {
+    margin-top: 6%;
+}
+.main .description {
+    padding-top: 14% ! important;
+    width: 90%;
+    margin-left: 8%;
+    letter-spacing: -0.2px;
+}
+
+.description {
+    margin: 5%;
+}
+
+.description h2 {
+    color: #8DC763;
+    padding-bottom: 28px;
+    letter-spacing: -1px;
+    font-size: 28px;
+    line-height: 1.4;
+    font-family: Brandon_reg;
+}
+
+.description h5 {
+    letter-spacing: 2.2px;
+}
+h5 {
+    color: grey !important;
+}
+
+.about {
+    background-color: #393F40;
+    color: #ffffff;
+    margin-top: -30px;
+}
+
+.about_cont {
+    padding-top: 13%;
+    text-align: left;
+    padding-bottom: 35%;
+    width: 95%;
+    padding-left: 12%;
+}
+
+.about_img {
+    display: inline-block;
+    padding-right: 2%;
+}
+
+.about p {
+    padding-top: 7px;
+    color: #b0b2b3;
+}
+.about_cont h3 {
+    display: inline-block;
+}
+
+.about2 {
+    background-color: #e1e0df;
+}
+
+.about2 .description {
+    padding-top: 45%;
+    margin: 4%;
+    letter-spacing: normal;
+}
+
+.about2 img {
+    padding-top: 19%;
+    margin-left: 8px;
+    padding-bottom: 13%;
+}
+
+.fun_facts {
+    background-color: #ffffff;
+}
+.fun_facts .description {
+    padding-top: 7%;
+    line-height: 1.5;
+    padding-bottom: 1%;
+    letter-spacing: 0.9px;
+}
+.friends {
+    padding-left: 3% ! important;
+    padding-right: 3% ! important;
+    padding-bottom: 10% ;
+}
+.friends h4 {
+    padding-top: 10px;
+}
+
+.friends p {
+    color: #717373;
+}
+.instructions {
+    background-color: #e1e0df;
+    cursor: pointer;
+    padding-bottom: 8%;
+}
+
+.instructions .description {
+   padding-top: 11.5%;
+}
+
+.instructions img {
+    padding-top: 4%;
+    padding-bottom: 9%;
+}
+
+.slider {
+    margin: 0;
+}
+
+.slider .carousel-caption {
+  padding-bottom: 20%;
+    margin-left: -50px;
+    width: 38%;
+    text-align: left;
+}
+
+.slider .carousel-caption h3 {
+    font-size: 28px;
+}
+
+.slider .carousel-caption p {
+    font-size: 20px;
+    color: #ffffff;
+}
+.pricing {
+    background-color: #ffffff;
+    padding-bottom: 3%;
+}
+.pricing img{
+    padding-top: 23%;
+    width: 88%;
+    padding-bottom: 13%;
+}
+
+.pricing .description {
+    padding-top: 45%;
+    width: 85%;
+    margin: 4%;
+}
+.modal-footer, .modal-header{
+  border: 0 ! important;
+}
+
+.modal {
+    word-wrap: break-word;
+}
+.regular_img {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.last_punchline{
+    background-color: #8DC763;
+    color: #ffffff;
+    padding-top: 5%;
+    padding-bottom: 6%;
+}
+
+.last_punchline h3 {
+    padding-bottom: 5%;
+}
+.last_punchline .btn {
+    padding: 14px 18px !important;
+    color: #76A852;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+
+}
+.footer {
+    background-color: #222627;
+    color: #ffffff;
+    padding: 3%;
+}
+.footer ul li {
+    display: inline-block;
+    color: #dcdcdc;
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+@media (max-width : 765px) {
+
+    .book_img {
+        padding-top: 17%;
+    }
+
+    .header h1 {
+        font-size: 61px;
+    }
+    .header h3 {
+        font-size: 37px;
+        width: 90%;
+    }
+    .main .description {
+        padding-top: 0 !important;
+    }
+
+    .description {
+        text-align: center! important;
+    }
+    .description h5 {
+        font-size: 22px;
+    }
+
+    .description h2 {
+        font-size:44px ! important;
+    }
+
+    .description p {
+        font-size: 34px! important;
+    }
+
+    .about {
+        padding-bottom: 5%;
+    }
+    .about_cont {
+        padding-top: 8%! important;
+        padding-bottom: 0! important;
+    }
+
+    .about_cont h3 {
+        font-size: 37px;
+    }
+
+    .about_cont p {
+        font-size: 34px !important;
+    }
+
+    .about2 .description {
+        padding-top: 3%!important;
+    }
+
+    .friends h4{
+        font-size: 37px;
+    }
+
+    .friends p {
+        font-size: 34px;
+    }
+
+    .pricing img {
+        padding-top: 5%;
+    }
+
+    .pricing .description {
+        padding: 0! important;
+    }
+
+    .slider .carousel-caption {
+        margin: 0;
+        text-align: center;
+        padding: 0;
+    }
+}
