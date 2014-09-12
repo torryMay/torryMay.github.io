@@ -24,6 +24,7 @@ body {
 
 .row {
     max-width: 1280px !important;
+    margin: 0 ! important;
 }
 .every_img {
     width: 100%;
@@ -39,8 +40,8 @@ body {
     font-size: 36px;
 }
 .header h3 {
-    padding-top: 1%;
     color: #dcdcdc;
+    padding-bottom: 3%;
 }
 
 p {
@@ -53,8 +54,7 @@ p {
 }
 
 .video_cont {
-    padding-top: 3%;
-    padding-bottom: 15%;
+    padding-bottom: 16%;
 }
 
 .main {
@@ -62,10 +62,10 @@ p {
 }
 
 .main_cont {
-    margin-top: 6%;
+    margin-top: 6% !important;
 }
 .main .description {
-    padding-top: 14% ! important;
+    padding-top: 17% ! important;
     width: 90%;
     margin-left: 8%;
     letter-spacing: -0.2px;
@@ -94,13 +94,13 @@ h5 {
 .about {
     background-color: #393F40;
     color: #ffffff;
-    margin-top: -30px;
+    margin-top: -30px !important;
 }
 
 .about_cont {
-    padding-top: 13%;
+    padding-top: 4%;
     text-align: left;
-    padding-bottom: 35%;
+    padding-bottom: 11%;
     width: 95%;
     padding-left: 12%;
 }
@@ -118,7 +118,7 @@ h5 {
     display: inline-block;
 }
 
-.about2 {
+.about2 , .about2mob{
     background-color: #e1e0df;
 }
 
@@ -126,6 +126,18 @@ h5 {
     padding-top: 45%;
     margin: 4%;
     letter-spacing: normal;
+}
+
+.about2mob .description{
+    padding-top: 45%;
+    margin: 4%;
+    letter-spacing: normal;
+}
+
+.about2mob img {
+    padding-top: 19%;
+    margin-left: 8px;
+    padding-bottom: 13%;
 }
 
 .about2 img {
@@ -189,7 +201,7 @@ h5 {
     font-size: 20px;
     color: #ffffff;
 }
-.pricing {
+.pricing , .pricing_mob{
     background-color: #ffffff;
     padding-bottom: 3%;
 }
@@ -197,6 +209,18 @@ h5 {
     padding-top: 23%;
     width: 88%;
     padding-bottom: 13%;
+}
+
+.pricing_mob img{
+    padding-top: 23%;
+    width: 88%;
+    padding-bottom: 13%;
+}
+
+.pricing_mob .description{
+    padding-top: 45%;
+    width: 85%;
+    margin: 4%;
 }
 
 .pricing .description {
@@ -210,6 +234,10 @@ h5 {
 
 .modal {
     word-wrap: break-word;
+}
+
+.modal-lg {
+    width: 1130px !important;
 }
 .regular_img {
     padding-top: 10%;
@@ -226,12 +254,26 @@ h5 {
     padding-bottom: 5%;
 }
 .last_punchline .btn {
-    padding: 14px 18px !important;
+    height: 41px;
     color: #76A852;
     font-size: 15px;
     letter-spacing: 2px;
     border-radius: 8px;
 
+}
+
+.bttn {
+    color: #76A852;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 1.1em 2em;
+    outline: none; /* убирать контур в Mozilla */
+    border-radius: 8px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: solid 1px #dcdcdc;
+    vertical-align: -webkit-baseline-middle;
 }
 .footer {
     background-color: #222627;
@@ -245,18 +287,35 @@ h5 {
     font-size: 18px;
 }
 
-@media (max-width : 765px) {
+@media (min-width  : 992px) {
+    .about2mob , .pricing_mob {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+@media (max-width : 640px) {
 
     .book_img {
-        padding-top: 17%;
+        padding-top: 16%;
+        padding-bottom: 14%;
+        width: 7%;
     }
 
     .header h1 {
         font-size: 61px;
+        padding-bottom: 3%;
     }
     .header h3 {
         font-size: 37px;
-        width: 90%;
+        padding-bottom: 8%;
+    }
+
+    .video_cont img {
+       width: 50%;
+    }
+
+    .video_cont {
+        padding-bottom: 23%;
     }
     .main .description {
         padding-top: 0 !important;
@@ -267,6 +326,7 @@ h5 {
     }
     .description h5 {
         font-size: 22px;
+        padding-top: 17%;
     }
 
     .description h2 {
@@ -275,47 +335,142 @@ h5 {
 
     .description p {
         font-size: 34px! important;
+        padding-bottom: 3%;
     }
 
     .about {
-        padding-bottom: 5%;
+        padding-bottom: 3%;
     }
     .about_cont {
-        padding-top: 8%! important;
         padding-bottom: 0! important;
+        padding-left: 7%;
+    }
+
+    .about_cont img {
+        width: 12%;
     }
 
     .about_cont h3 {
         font-size: 37px;
+        padding-top: 8%;
     }
 
     .about_cont p {
         font-size: 34px !important;
+        padding-bottom: 4%;
     }
 
-    .about2 .description {
-        padding-top: 3%!important;
+    .about2 {
+        display: none !important;
+        visibility: hidden !important;
     }
 
+    .about2mob {
+        padding-top: 0! important;
+    }
+
+    .about2mob img {
+        padding-top: 0!important;
+        padding-bottom: 14%;
+    }
+    .fun_facts .description{
+       padding-top: 0;
+    }
+
+    .fun_facts .description p {
+    line-height: normal;
+    }
+
+    .friends img {
+        width: 53%;
+        padding-bottom: 6%;
+    }
     .friends h4{
-        font-size: 37px;
+        font-size: 37px ;
     }
 
     .friends p {
-        font-size: 34px;
+        font-size: 34px !important;
     }
 
-    .pricing img {
+    .instructions .description {
+        padding-top: 0 !important;
+    }
+
+    .instructions_cont img {
+        width: 40%;
+        padding-bottom: 6%;
+    }
+
+    .instructions_cont h5{
+        font-size: 22px;
+    }
+
+    .instructions_cont h3 {
+        font-size: 40px;
+    }
+
+    .instructions_cont p {
+        font-size: 34px !important;
+    }
+
+    .pricing {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .pricing_mob img {
         padding-top: 5%;
     }
 
-    .pricing .description {
+    .pricing_mob .description {
         padding: 0! important;
     }
 
     .slider .carousel-caption {
-        margin: 0;
+        margin: 0 ! important;
         text-align: center;
-        padding: 0;
+        padding: 0! important;
+        width: 70% !important;
     }
+
+    .slider .carousel-caption p {
+        font-size: 20px;
+        color: #ffffff;
+        padding-bottom: 10%! important;
+    }
+    .last_punchline h3 {
+        font-size: 38px;
+        padding-top: 10%;
+        padding-bottom: 13%;
+    }
+
+    .bttn {
+        font-size: 32px;
+        padding: 1.1em 5em;
+    }
+
+    .button {
+        padding-bottom: 18%;
+    }
+    .footer ul{
+        text-align: center;
+    }
+    .footer h4 {
+        font-family: Brandon_reg;
+        font-size: 34px;
+        text-align: center;
+        padding-top: 8%;
+    }
+
+    .footer ul li {
+        font-size: 30px;
+    }
+
+    .social li img {
+        width: 150%;
+        padding: 15%;
+
+    }
+
 }
+
