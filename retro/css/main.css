@@ -32,6 +32,9 @@ body {
     border-bottom: 1px dashed darkcyan;
 }
 
+.every_img {
+    width: 100%;
+}
 .mainMenu li{
     display: inline-block;
     padding: 0 25px;
@@ -50,9 +53,13 @@ body {
 }
 
 .mainMenu img {
-    height: 153px;
+    width: 45%;
+    margin-bottom: -30px;
 }
 
+.mainMenu ul li {
+    margin-bottom: 0!important;
+}
 .slider-bg {
     background-color: #76b9b9;
     text-align: center;
@@ -64,17 +71,8 @@ body {
 }
 .rib img{
     padding: 30px;
+    width: 40%;
 }
-
-
-
-.slider {
-    /*border: 10px solid #ffffff;*/
-    /*border-bottom: 50px solid #ffffff;*/
-    /*background-color: #ffffff;*/
-
-}
-
 
 .content-bg {
     margin-top: 45px;
@@ -171,6 +169,7 @@ body {
     text-transform: none;
     color: darkgrey;
     font-weight: normal;
+
 }
 
 .contact {
@@ -226,4 +225,19 @@ hr {
 
 .row {
     margin: 0 auto !important;
+}
+
+@media (max-width: 600px) {
+    .rib img {
+        width: 90%;
+    }
+
+    .myblog p {
+        white-space: nowrap;
+    }
+
+    .mainMenu img {
+        margin-bottom: 0;
+        width: 25%;
+    }
 }
