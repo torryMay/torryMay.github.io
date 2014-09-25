@@ -15,7 +15,7 @@
 
 body {
     background-color: #E7E6E5 !important;
-    margin: auto ! important;
+    margin: 0 auto ! important;
     width: 1280px ! important;
     text-align: center ! important;
     font-family: "Calibre-reg" ! important;
@@ -306,12 +306,13 @@ h5 {
 
 
 @media (min-width  : 650px) {
+
     .about2mob , .pricing_mob {
         display: none !important;
         visibility: hidden !important;
     }
 }
-@media (max-width : 650px) {
+@media (max-width : 950px) {
 
     .book_img {
         padding-top: 16%;
@@ -359,6 +360,7 @@ h5 {
     .about {
         padding-bottom: 3%;
     }
+
     .about_cont {
         padding-bottom: 0! important;
         padding-left: 7%;
@@ -488,9 +490,8 @@ h5 {
     }
 
     .social img {
-        width: 150%;
+        width: 70%;
         padding: 15%;
-
     }
 
 }
