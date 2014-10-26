@@ -1,0 +1,277 @@
+@font-face {
+    font-family: Monsterrat-reg;
+    src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/ZPkHHJof.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: OpenSansLight;
+    src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
+body {
+    letter-spacing: 2px;
+}
+.header {
+    background-image: url(../img/header.png);
+    color: #ffffff;
+    font-family: Monsterrat-reg;
+}
+
+.headerCont {
+    padding-left: 4%;
+}
+.header img {
+    margin-top: 52px;
+}
+
+.header p {
+    margin-bottom: 190px;
+    padding-top: 20px;
+
+    font-size: 22px;
+}
+
+.header h1 {
+    font-size: 57px;
+    margin-top: 133px;
+
+}
+
+
+.area  {
+    margin-top: 4%;
+    padding-bottom: 60px;
+    font-family: "OpenSans";
+    font-size: 20px;
+
+}
+
+.area p {
+    border-right: 2px #f0f0f0 solid;
+    font-weight: bold;
+    padding-left: 6%;
+}
+
+.area span {
+    font-weight: bold;
+    font-family: "OpenSans";
+    color: #c07971;
+    padding-left: 8%;
+}
+
+.area b {
+    font-family: OpenSansLight;
+    color: #000000;
+}
+
+.listings {
+    background-color: #000000;
+}
+.listimg {
+    padding: 0 !important;
+}
+
+.every_img {
+    width: 100%;
+    height: 100%;
+}
+
+.list1 {
+    height: 596px;
+}
+
+.list2{
+    height: 298px;
+}
+
+.featurImg , .soldImg {
+    position: relative;
+}
+
+.featurImg h2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #a62914;
+    color: #ffffff;
+    padding: 2% 17%;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.listDescr {
+    position: absolute;
+    top: 0;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 16%;
+    margin-left: 20%;
+    font-weight: 100;
+    letter-spacing: 3px;
+    line-height: 1.8;
+}
+
+.listDescr h1{
+    margin-bottom: 0;
+    font-family: OpenSans;
+    font-size: 45px;
+}
+
+.listDescr ul {
+    padding-bottom: 10%;
+}
+
+.listDescr span {
+    border-bottom: 2px #ffc324 solid;
+    padding-bottom: 10px;
+    padding-right: 12%;
+}
+
+.listDescr p:first-child {
+    padding-bottom: 3%;
+}
+.soldDescr {
+    position: absolute;
+    top: 0;
+    color: #ffffff;
+    padding-top: 16%;
+    padding-left: 26%;
+    font-weight: 600;
+}
+
+.soldDescr h2 {
+    font-size: 36px;
+    font-weight: 900;
+    border-bottom: 1px #ffffff solid;
+    padding-bottom: 5px;
+}
+.soldDescr span {
+    font-size: 22px;
+}
+.quote {
+    border-bottom: 2px gray solid;
+    padding: 52px 0 46px 0;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding-left: 20px;
+}
+
+.quote p {
+    font-size: 34px;
+    font-family: "Open Sans";
+    color: #313131;
+}
+
+.quote .btn {
+    height: 53px;
+    width: 193px;
+    background-color: #a62914;
+}
+
+.about {
+    margin-top: 70px ;
+    font-weight: 300;
+    padding-bottom: 1%;
+    border-bottom: 50px #fcfaf9 solid;
+}
+
+.about p {
+    font-size: 16px;
+    padding-bottom: 21px;
+    letter-spacing: -1px;
+    word-spacing: 6px;
+}
+
+.about img {
+    padding-bottom: 20px;
+
+}
+
+.about address {
+    padding-left: 20px;
+    font-weight: 100;
+}
+.about strong {
+    padding-bottom: 10px;
+}
+.about h3 {
+    margin-top: 0;
+    padding-bottom: 11px;
+}
+
+.about span {
+    font-weight: 900 !important;
+    font-size: 20px;
+}
+.footer {
+    background-image: url(../img/footer.png);
+    color: #ffffff;
+    padding: 70px 0;
+}
+
+.footer h1 {
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.infoArea {
+    padding-bottom: 30px;
+}
+strong {
+    color: #ce9603;
+    font-size: 20px;
+}
+
+.footer span, a {
+    font-size: 22px;
+}
+
+.footer address {
+    padding-bottom: 10px !important;
+}
+
+.form-control {
+    border: 0;
+    background: transparent;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    border-bottom: 2px #ce9603 solid;
+    margin-bottom: 6%;
+}
+
+.footer .btn {
+    width: 245px;
+    height: 63px;
+    font-size: 18px;
+    background-color: #a62914;
+    font-weight: bold;
+}
+
+.messform {
+    margin-bottom: 20px;
+    margin-bottom: 10%;
+}
+
+.demo {
+    background-color: #2d2d2d;
+    color: #474747;
+    padding-bottom: 1% ;
+    padding-top: 4%;
+    font-size: 16px;
+}
+
+.demo span {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.rights {
+    background-color: #252525;
+    padding: 20px 0;
+}

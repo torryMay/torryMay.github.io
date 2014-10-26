@@ -241,3 +241,57 @@ hr {
         width: 25%;
     }
 }
+.oProjectTile, .oProjectTile .oProjectTileInfo {
+    width: 299px;
+    height: 235px;
+    overflow: hidden;
+}
+
+ .oProjectThumbnail {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 299px;
+    height: 190px;
+    overflow: hidden;
+}
+
+ .oProjectThumbnail>img {
+    max-height: 299px;
+    max-width: 306px;
+}
+
+.oProjectTile {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 19px;
+    margin-right: 12px;
+    background-color: #f5f5f2;
+    border: 1px solid #d2d6de;
+    border-radius: 7px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.14);
+    vertical-align: top;
+    cursor: pointer;
+}
+
+ .oProjectTileInfo {
+    position: absolute;
+    color: #252523;
+    line-height: 2;
+    text-decoration: none;
+    z-index: 3;
+    padding: 19px;
+}
+
+.oEllipsis {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+}
+
+ .oImageOver {
+    top: 190px;
+    padding-top: 14px;
+    background-color: #fff;
+}
