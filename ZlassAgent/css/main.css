@@ -18,6 +18,7 @@ body {
 }
 .header {
     background-image: url(../img/header.png);
+
     color: #ffffff;
     font-family: Monsterrat-reg;
 }
@@ -45,7 +46,7 @@ body {
 
 .area  {
     margin-top: 4%;
-    padding-bottom: 60px;
+    padding-bottom: 3%;
     font-family: "OpenSans";
     font-size: 20px;
 
@@ -67,6 +68,31 @@ body {
 .area b {
     font-family: OpenSansLight;
     color: #000000;
+}
+
+#wave {
+    position: relative;
+    height: 70px;
+    width: 600px;
+}
+
+#wave span {
+    left: 45%;
+    color: #c07971;
+    top: 63px;
+}
+
+#wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 40% 0 0 0 ;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    left: 30%;
+    top: 15px;
+    transform: rotate(45deg);
 }
 
 .listings {
