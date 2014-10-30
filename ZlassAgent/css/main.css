@@ -128,6 +128,7 @@ body {
     padding: 2% 17%;
     margin: 0;
     letter-spacing: 1px;
+    word-break: keep-all;
 }
 
 .listDescr {
@@ -221,6 +222,7 @@ body {
 .about address {
     padding-left: 20px;
     font-weight: 100;
+    word-break: break-all;
 }
 .about strong {
     padding-bottom: 10px;
