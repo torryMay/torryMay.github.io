@@ -15,10 +15,15 @@
 
 body {
     letter-spacing: 2px;
+    width: 100%;
+    margin: 0 !important;
+
 }
+
+/*___________ HEADER  __________*/
+
 .header {
     background-image: url(../img/header.png);
-
     color: #ffffff;
     font-family: Monsterrat-reg;
 }
@@ -52,6 +57,8 @@ body {
 
 }
 
+/*___________ AREA __________*/
+
 .area p {
     border-right: 2px #f0f0f0 solid;
     font-weight: bold;
@@ -70,6 +77,9 @@ body {
     color: #000000;
 }
 
+.area_cont {
+    margin: 0;
+}
 #wave {
     position: relative;
     height: 70px;
@@ -95,6 +105,8 @@ body {
     transform: rotate(45deg);
 }
 
+/*___________LISTINGS __________*/
+
 .listings {
     background-color: #000000;
 }
@@ -102,6 +114,10 @@ body {
     padding: 0 !important;
 }
 
+.listimg h2 {
+    white-space: nowrap;
+    word-break: keep-all;
+}
 .every_img {
     width: 100%;
     height: 100%;
@@ -128,7 +144,7 @@ body {
     padding: 2% 17%;
     margin: 0;
     letter-spacing: 1px;
-    word-break: keep-all;
+
 }
 
 .listDescr {
@@ -162,6 +178,7 @@ body {
 .listDescr p:first-child {
     padding-bottom: 3%;
 }
+
 .soldDescr {
     position: absolute;
     top: 0;
@@ -180,6 +197,7 @@ body {
 .soldDescr span {
     font-size: 22px;
 }
+
 .quote {
     border-bottom: 2px gray solid;
     padding: 52px 0 46px 0;
@@ -232,10 +250,17 @@ body {
     padding-bottom: 11px;
 }
 
+.infoArea {
+    padding-bottom: 30px;
+}
+
 .about span {
     font-weight: 900 !important;
     font-size: 20px;
 }
+
+/*___________ FOOTER _______________*/
+
 .footer {
     background-image: url(../img/footer.png);
     color: #ffffff;
@@ -247,9 +272,7 @@ body {
     padding-bottom: 30px;
 }
 
-.infoArea {
-    padding-bottom: 30px;
-}
+
 strong {
     color: #ce9603;
     font-size: 20px;
