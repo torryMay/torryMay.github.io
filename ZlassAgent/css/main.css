@@ -49,6 +49,10 @@ body {
 }
 
 
+
+
+/*___________ AREA __________*/
+
 .area  {
     margin-top: 4%;
     padding-bottom: 3%;
@@ -56,8 +60,6 @@ body {
     font-size: 20px;
 
 }
-
-/*___________ AREA __________*/
 
 .area p {
     border-right: 2px #f0f0f0 solid;
@@ -86,10 +88,10 @@ body {
     width: 600px;
 }
 
-#wave span {
-    left: 45%;
-    color: #c07971;
-    top: 63px;
+#wave img {
+    left: 44%;
+    position: absolute;
+
 }
 
 #wave:before {
@@ -115,7 +117,7 @@ body {
 }
 
 .listimg h2 {
-    white-space: nowrap;
+
     word-break: keep-all;
 }
 .every_img {
@@ -123,12 +125,14 @@ body {
     height: 100%;
 }
 
-.list1 {
+.bigImg {
     height: 596px;
+
 }
 
-.list2{
+.smallImg{
     height: 298px;
+
 }
 
 .featurImg , .soldImg {
@@ -143,7 +147,7 @@ body {
     color: #ffffff;
     padding: 2% 17%;
     margin: 0;
-    letter-spacing: 1px;
+    letter-spacing: -0.8px;
 
 }
 
@@ -317,9 +321,13 @@ strong {
     font-size: 16px;
 }
 
+.demo, .rights {
+    letter-spacing: 0px;
+}
 .demo span {
     display: block;
     padding-bottom: 20px;
+
 }
 
 .rights {
